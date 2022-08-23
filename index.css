@@ -123,10 +123,6 @@ a.link-to-book:hover {
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
-.outline-button-container {
-  display: flex;
-  position: relative;
-}
 .outline-button-button {
   border-width: 1px;
   border-radius: 50px;
