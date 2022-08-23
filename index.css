@@ -85,6 +85,8 @@ a.link-to-book:hover {
 .carousel-inner {
   height: 700px;
 }
+
+
 /* Menu  Page */
 .menu-intro {
   height: 620px;
@@ -116,12 +118,10 @@ a.link-to-book:hover {
   grid-gap: auto;
   flex-wrap: wrap;
   max-width: 1000px;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
   padding: 50px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
 }
 .outline-button-container {
   display: flex;
