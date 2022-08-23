@@ -67,8 +67,8 @@
 }
 
 a.link-to-book:hover {
-  background-color: #ffffff;
-  color: #95999e;
+  background-color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -87,6 +87,7 @@ a.link-to-book:hover {
 }
 /* Menu  Page */
 .menu-intro {
+  font-size: xx-large;
   height: 620px;
   background-image: url(/img/pexels-pixabay-255501.jpg);
   background-size: cover;
@@ -182,7 +183,7 @@ a.link-to-book:hover {
 .btn.btn-primary {
   font-family: "Big Shoulders Text", cursive;
   color: #ffffff;
-  background-color: #95999e;
+  background-color: #04AA6D;
   text-transform: uppercase;
   font-size: 16px;
   padding: 5px 10px;
