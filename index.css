@@ -123,11 +123,6 @@ a.link-to-book:hover {
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
-.outline-button-button {
-  border-width: 1px;
-  border-radius: 50px;
-}
-
 .place-card-container {
   width: 300px;
   display: flex;
@@ -160,17 +155,6 @@ a.link-to-book:hover {
   font-size: 12px;
   max-width: 250px;
 }
-.back-button-container {
-  display: flexbox;
-  position: relative;
-}
-.back-button-button {
-  text-decoration-style: wavy;
-  color: black;
-  border-color: gainsboro;
-  border-width: 2px;
-  text-align: end;
-}
 @media (max-width: 767px) {
   .place-card-container {
     width: 200px;
@@ -184,8 +168,8 @@ a.link-to-book:hover {
 .row-flex {
   display: flex;
   flex-direction: row;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .flex-column-form {
