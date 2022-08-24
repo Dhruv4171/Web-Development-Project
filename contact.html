@@ -18,7 +18,7 @@
             <img src="/img/pexels-antony-trivet-12884053.jpg" style="width:100%">
           </div>
           <div class="column">
-            <form action="/action_page.php">
+            <form action="/action_page.php" onsubmit="func()" method="post">
               <label for="fname">Your Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name.." autocomplete="off">
               <label for="lname">Phone Number</label>
@@ -32,5 +32,10 @@
           </div>
         </div>
       </div>
+      <script>
+        function func(){
+          alert("Your Table is Booked");
+        }
+      </script>
 </body>
 </html>
