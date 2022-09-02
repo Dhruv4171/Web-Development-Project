@@ -272,3 +272,7 @@ a.link-to-book:hover {
     text-align: center;
   }
 }
+.main{
+  display: flexbox;
+  justify-content: center;
+}
